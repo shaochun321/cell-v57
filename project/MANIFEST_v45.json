@@ -1,0 +1,19 @@
+{
+  "version": "v45",
+  "status": "N288 standard residual pair structured audit complete; pair-specific controlled study is the next authoritative task",
+  "latest_outputs": [
+    "outputs/stage1_global_overview_farther_scale_n288_standard_full_stack_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_STANDARD_FULL_STACK_CANDIDATE_REPORT.md",
+    "outputs/stage1_global_overview_farther_scale_n288_standard_full_stack_candidate/stage1_global_overview_farther_scale_n288_standard_full_stack_candidate_analysis.json",
+    "outputs/stage1_global_overview_farther_scale_n288_standard_residual_pair_structured_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_STANDARD_RESIDUAL_PAIR_STRUCTURED_AUDIT_REPORT.md",
+    "outputs/stage1_global_overview_farther_scale_n288_standard_residual_pair_structured_audit/stage1_global_overview_farther_scale_n288_standard_residual_pair_structured_audit_analysis.json"
+  ],
+  "next_task": "Pair-specific controlled study of the N288 separator-overreach case and the N288 baseline-edge case before N288 harder unseen-nuisance escalation",
+  "full_stack_frozen": true,
+  "notes": [
+    "overview-first mainline unchanged",
+    "bidirectional separator unchanged for now",
+    "negative sign-aware fallback unchanged",
+    "positive trace-basis bridge unchanged",
+    "N288 residual pair is heterogeneous: separator overreach into true translation plus baseline-edge leak into translation"
+  ]
+}

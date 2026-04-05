@@ -1,0 +1,2278 @@
+{
+  "version": "v40",
+  "description": "Stage-1 restart full continuing snapshot with v40 beyond-N224 standard full-stack probe and dedicated residual/governance appendix axes.",
+  "contents": [
+    {
+      "path": "MANIFEST_v39.json",
+      "size": 1345
+    },
+    {
+      "path": "docs/BACKUP_AND_REJECTED_PATHS_STAGE1.md",
+      "size": 14164
+    },
+    {
+      "path": "docs/DECISION_LOG_AND_ROUTE_CHANGES_STAGE1.md",
+      "size": 27677
+    },
+    {
+      "path": "docs/DRIFT_APPENDIX_STAGE1.md",
+      "size": 4294
+    },
+    {
+      "path": "docs/GEOMETRIC_CANONICALIZATION_AND_RESIDUAL_RELATION_HYPOTHESES_STAGE1.md",
+      "size": 5812
+    },
+    {
+      "path": "docs/GLOBAL_OVERVIEW_APPENDIX.md",
+      "size": 20584
+    },
+    {
+      "path": "docs/M1_MATERIAL_CONTINUITY_DOMAIN_INTEGRITY_AUDIT_R1_REPORT.md",
+      "size": 4998
+    },
+    {
+      "path": "docs/M2_2_INNER_CORE_AMPLITUDE_DENSITY_REDESIGN_R1_REPORT.md",
+      "size": 2140
+    },
+    {
+      "path": "docs/M2_3_JOINT_SHELL0_SHELL1_HIGH_AMPLITUDE_DENSITY_FORMATION_REDESIGN_R1_REPORT.md",
+      "size": 2453
+    },
+    {
+      "path": "docs/M2_4_BASELINE_RECHECK_R1_COMMANDS.md",
+      "size": 862
+    },
+    {
+      "path": "docs/M2_4_BASELINE_RECHECK_R1_REPORT.md",
+      "size": 1979
+    },
+    {
+      "path": "docs/M2_4_INNER_CORE_HIGH_AMPLITUDE_DISTRIBUTION_SHAPING_REDESIGN_R1_COMMANDS.md",
+      "size": 1826
+    },
+    {
+      "path": "docs/M2_4_INNER_CORE_HIGH_AMPLITUDE_DISTRIBUTION_SHAPING_REDESIGN_R1_REPORT.md",
+      "size": 1769
+    },
+    {
+      "path": "docs/M2_INNER_CORE_SOURCE_CONTINUITY_REDESIGN_R1_REPORT.md",
+      "size": 1859
+    },
+    {
+      "path": "docs/NEXT_CHAT_BOOTSTRAP.txt",
+      "size": 3249
+    },
+    {
+      "path": "docs/PHILOSOPHY_AND_DEFINITIONS_STAGE1.md",
+      "size": 9142
+    },
+    {
+      "path": "docs/PROJECT_HANDOFF_STAGE1.md",
+      "size": 51706
+    },
+    {
+      "path": "docs/READOUT_GOVERNANCE_AND_ANTI_PATCH_ILLUSION_STAGE1.md",
+      "size": 10480
+    },
+    {
+      "path": "docs/RESIDUAL_TAXONOMY_AND_RELATION_HYPOTHESES_STAGE1.md",
+      "size": 7897
+    },
+    {
+      "path": "outputs/README_OUTPUTS_CURATED.txt",
+      "size": 332
+    },
+    {
+      "path": "outputs/stage1_drift_overview/STAGE1_DRIFT_OVERVIEW_REPORT.md",
+      "size": 3646
+    },
+    {
+      "path": "outputs/stage1_drift_overview/gate_space_centroids_by_scale_label.csv",
+      "size": 925
+    },
+    {
+      "path": "outputs/stage1_drift_overview/stage1_drift_overview_analysis.json",
+      "size": 5750
+    },
+    {
+      "path": "outputs/stage1_drift_overview/stage1_gate_space_geometry.png",
+      "size": 200232
+    },
+    {
+      "path": "outputs/stage1_global_overview_audit/STAGE1_GLOBAL_OVERVIEW_AUDIT_REPORT.md",
+      "size": 1089
+    },
+    {
+      "path": "outputs/stage1_global_overview_audit/stage1_global_overview_analysis.json",
+      "size": 26340
+    },
+    {
+      "path": "outputs/stage1_global_overview_candidate/STAGE1_GLOBAL_OVERVIEW_CANDIDATE_REPORT.md",
+      "size": 732
+    },
+    {
+      "path": "outputs/stage1_global_overview_candidate/stage1_global_overview_candidate_analysis.json",
+      "size": 25102
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192/STAGE1_GLOBAL_OVERVIEW_FIXED_HHD_HYBRID_LATESOFT_CANDIDATE_REPORT.md",
+      "size": 1658
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192/stage1_global_overview_fixed_hhd_hybrid_latesoft_candidate_analysis.json",
+      "size": 40082
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_bidirectional_rotation_veto_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N192_BIDIRECTIONAL_ROTATION_VETO_CANDIDATE_REPORT.md",
+      "size": 3744
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_bidirectional_rotation_veto_candidate/stage1_global_overview_farther_scale_n192_bidirectional_rotation_veto_candidate_analysis.json",
+      "size": 312662
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_generalized_curl_veto_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N192_GENERALIZED_CURL_VETO_CANDIDATE_REPORT.md",
+      "size": 3452
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_generalized_curl_veto_candidate/stage1_global_overview_farther_scale_n192_generalized_curl_veto_candidate_analysis.json",
+      "size": 109671
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_harder_nuisance_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N192_HARDER_NUISANCE_CANDIDATE_REPORT.md",
+      "size": 2055
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_harder_nuisance_candidate/stage1_global_overview_farther_scale_n192_harder_nuisance_candidate_analysis.json",
+      "size": 52878
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_harder_seedexp_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N192_HARDER_SEEDEXP_CANDIDATE_REPORT.md",
+      "size": 2847
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_harder_seedexp_candidate/stage1_global_overview_farther_scale_n192_harder_seedexp_candidate_analysis.json",
+      "size": 80209
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_midbalanced_veto_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N192_MIDBALANCED_VETO_CANDIDATE_REPORT.md",
+      "size": 1795
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_midbalanced_veto_candidate/stage1_global_overview_farther_scale_n192_midbalanced_veto_candidate_analysis.json",
+      "size": 51360
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_standard_seedexp_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N192_STANDARD_SEEDEXP_CANDIDATE_REPORT.md",
+      "size": 1678
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n192_standard_seedexp_candidate/stage1_global_overview_farther_scale_n192_standard_seedexp_candidate_analysis.json",
+      "size": 43021
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_bidirectional_rotation_veto_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_BIDIRECTIONAL_ROTATION_VETO_CANDIDATE_REPORT.md",
+      "size": 2355
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_bidirectional_rotation_veto_candidate/stage1_global_overview_farther_scale_n224_bidirectional_rotation_veto_candidate_analysis.json",
+      "size": 51931
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_harder_nuisance_bidirectional_rotation_veto_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_HARDER_NUISANCE_BIDIRECTIONAL_ROTATION_VETO_CANDIDATE_REPORT.md",
+      "size": 1552
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_harder_nuisance_bidirectional_rotation_veto_candidate/stage1_global_overview_farther_scale_n224_harder_nuisance_bidirectional_rotation_veto_candidate_analysis.json",
+      "size": 50426
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_HARDER_NUISANCE_SIGN_AWARE_GATE_FALLBACK_CANDIDATE_REPORT.md",
+      "size": 1910
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_candidate/stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_candidate_analysis.json",
+      "size": 70204
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_seedexp_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_HARDER_NUISANCE_SIGN_AWARE_GATE_FALLBACK_SEEDEXP_CANDIDATE_REPORT.md",
+      "size": 1747
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_seedexp_candidate/stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_seedexp_candidate_analysis.json",
+      "size": 105053
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_latesoft_negative_boundary_study/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_LATESOFT_NEGATIVE_BOUNDARY_STUDY_REPORT.md",
+      "size": 3352
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_latesoft_negative_boundary_study/stage1_global_overview_farther_scale_n224_latesoft_negative_boundary_study_analysis.json",
+      "size": 5106
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_latesoft_negative_translation_residual_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_LATESOFT_NEGATIVE_TRANSLATION_RESIDUAL_AUDIT_REPORT.md",
+      "size": 3743
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_latesoft_negative_translation_residual_audit/stage1_global_overview_farther_scale_n224_latesoft_negative_translation_residual_audit_analysis.json",
+      "size": 82370
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_richer_temporal_trace_gate_basis_study/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_RICHER_TEMPORAL_TRACE_GATE_BASIS_STUDY_REPORT.md",
+      "size": 6561
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_richer_temporal_trace_gate_basis_study/stage1_global_overview_farther_scale_n224_richer_temporal_trace_gate_basis_study_analysis.json",
+      "size": 154257
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_sign_asymmetry_residual_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_SIGN_ASYMMETRY_RESIDUAL_AUDIT_REPORT.md",
+      "size": 3789
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_sign_asymmetry_residual_audit/stage1_global_overview_farther_scale_n224_sign_asymmetry_residual_audit_analysis.json",
+      "size": 38314
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_sign_aware_gate_fallback_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_SIGN_AWARE_GATE_FALLBACK_CANDIDATE_REPORT.md",
+      "size": 2678
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_sign_aware_gate_fallback_candidate/stage1_global_overview_farther_scale_n224_sign_aware_gate_fallback_candidate_analysis.json",
+      "size": 105577
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_standard_seedexp_bidirectional_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_BIDIRECTIONAL_ROTATION_VETO_CANDIDATE_REPORT.md",
+      "size": 2717
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_standard_seedexp_bidirectional_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_STANDARD_SEEDEXP_BIDIRECTIONAL_CANDIDATE_REPORT.md",
+      "size": 2747
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_standard_seedexp_bidirectional_candidate/stage1_global_overview_farther_scale_n224_bidirectional_rotation_veto_candidate_analysis.json",
+      "size": 78744
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_standard_seedexp_bidirectional_candidate/stage1_global_overview_farther_scale_n224_standard_seedexp_bidirectional_candidate_analysis.json",
+      "size": 78682
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_standard_seedexp_trace_bridge_probe/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_STANDARD_SEEDEXP_TRACE_BRIDGE_PROBE_REPORT.md",
+      "size": 1803
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_standard_seedexp_trace_bridge_probe/stage1_global_overview_farther_scale_n224_standard_seedexp_trace_bridge_probe_analysis.json",
+      "size": 147458
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_translation_x_pos_late_balanced_residual_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_TRANSLATION_X_POS_LATE_BALANCED_RESIDUAL_AUDIT_REPORT.md",
+      "size": 4677
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n224_translation_x_pos_late_balanced_residual_audit/stage1_global_overview_farther_scale_n224_translation_x_pos_late_balanced_residual_audit_analysis.json",
+      "size": 26993
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n256_standard_full_stack_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N256_STANDARD_FULL_STACK_CANDIDATE_REPORT.md",
+      "size": 1477
+    },
+    {
+      "path": "outputs/stage1_global_overview_farther_scale_n256_standard_full_stack_candidate/stage1_global_overview_farther_scale_n256_standard_full_stack_candidate_analysis.json",
+      "size": 102728
+    },
+    {
+      "path": "outputs/stage1_global_overview_fixed_hhd_hybrid_candidate/STAGE1_GLOBAL_OVERVIEW_FIXED_HHD_HYBRID_CANDIDATE_REPORT.md",
+      "size": 1490
+    },
+    {
+      "path": "outputs/stage1_global_overview_fixed_hhd_hybrid_candidate/stage1_global_overview_fixed_hhd_hybrid_candidate_analysis.json",
+      "size": 39918
+    },
+    {
+      "path": "outputs/stage1_global_overview_fixed_hhd_hybrid_latesoft_candidate/STAGE1_GLOBAL_OVERVIEW_FIXED_HHD_HYBRID_LATESOFT_CANDIDATE_REPORT.md",
+      "size": 1421
+    },
+    {
+      "path": "outputs/stage1_global_overview_fixed_hhd_hybrid_latesoft_candidate/stage1_global_overview_fixed_hhd_hybrid_latesoft_candidate_analysis.json",
+      "size": 39288
+    },
+    {
+      "path": "outputs/stage1_global_overview_harder_nuisance_candidate/STAGE1_GLOBAL_OVERVIEW_HARDER_NUISANCE_CANDIDATE_REPORT.md",
+      "size": 919
+    },
+    {
+      "path": "outputs/stage1_global_overview_harder_nuisance_candidate/stage1_global_overview_harder_nuisance_candidate_analysis.json",
+      "size": 38906
+    },
+    {
+      "path": "outputs/stage1_global_overview_hhd_lite_candidate/STAGE1_GLOBAL_OVERVIEW_HHD_LITE_CANDIDATE_REPORT.md",
+      "size": 1121
+    },
+    {
+      "path": "outputs/stage1_global_overview_hhd_lite_candidate/stage1_global_overview_hhd_lite_candidate_analysis.json",
+      "size": 36396
+    },
+    {
+      "path": "outputs/stage1_global_overview_richer_nuisance/STAGE1_GLOBAL_OVERVIEW_RICHER_NUISANCE_REPORT.md",
+      "size": 478
+    },
+    {
+      "path": "outputs/stage1_global_overview_richer_nuisance/stage1_global_overview_richer_nuisance_analysis.json",
+      "size": 9273
+    },
+    {
+      "path": "outputs/stage1_global_overview_temporal_candidate/STAGE1_GLOBAL_OVERVIEW_TEMPORAL_CANDIDATE_REPORT.md",
+      "size": 1098
+    },
+    {
+      "path": "outputs/stage1_global_overview_temporal_candidate/stage1_global_overview_temporal_candidate_analysis.json",
+      "size": 10149
+    },
+    {
+      "path": "outputs/stage1_hierarchical_gate_sign_tuned_audit/STAGE1_HIERARCHICAL_GATE_SIGN_TUNED_AUDIT_REPORT.md",
+      "size": 1931
+    },
+    {
+      "path": "outputs/stage1_hierarchical_gate_sign_tuned_audit/STAGE1_HIERARCHICAL_GATE_SIGN_TUNED_N128_PROBE_REPORT.md",
+      "size": 1559
+    },
+    {
+      "path": "outputs/stage1_hierarchical_gate_sign_tuned_audit/stage1_hierarchical_gate_sign_tuned_analysis.json",
+      "size": 20112
+    },
+    {
+      "path": "outputs/stage1_hierarchical_gate_sign_tuned_audit/stage1_hierarchical_gate_sign_tuned_n128_probe.json",
+      "size": 2696
+    },
+    {
+      "path": "outputs/stage1_hierarchical_gate_sign_tuned_audit/stage1_hierarchical_gate_sign_tuned_n128_probe_apply.json",
+      "size": 2898
+    },
+    {
+      "path": "outputs/stage1_hierarchical_stress_audit/STAGE1_HIERARCHICAL_STRESS_AUDIT_REPORT.md",
+      "size": 1108
+    },
+    {
+      "path": "outputs/stage1_hierarchical_stress_audit/stage1_hierarchical_stress_analysis.json",
+      "size": 15290
+    },
+    {
+      "path": "outputs/stage1_hierarchical_stress_robust_audit/STAGE1_HIERARCHICAL_STRESS_ROBUST_AUDIT_REPORT.md",
+      "size": 1705
+    },
+    {
+      "path": "outputs/stage1_hierarchical_stress_robust_audit/stage1_hierarchical_stress_robust_analysis.json",
+      "size": 20182
+    },
+    {
+      "path": "outputs/stage1_interface_protocol/STAGE1_INTERFACE_PROTOCOL_REPORT.md",
+      "size": 2156
+    },
+    {
+      "path": "outputs/stage1_interface_protocol/stage1_interface_analysis.json",
+      "size": 2015457
+    },
+    {
+      "path": "outputs/stage1_interface_protocol/stage1_protocol_manifest.json",
+      "size": 1911724
+    },
+    {
+      "path": "outputs/stage1_medium_sign_audit_analysis/STAGE1_MEDIUM_SIGN_AUDIT_REPORT.md",
+      "size": 1374
+    },
+    {
+      "path": "outputs/stage1_medium_sign_audit_analysis/stage1_medium_sign_analysis.json",
+      "size": 43488
+    },
+    {
+      "path": "outputs/stage1_n160_early_routed_sign_candidate/STAGE1_N160_EARLY_ROUTED_SIGN_CANDIDATE_REPORT.md",
+      "size": 1579
+    },
+    {
+      "path": "outputs/stage1_n160_early_routed_sign_candidate/stage1_n160_early_routed_sign_candidate_analysis.json",
+      "size": 48780
+    },
+    {
+      "path": "outputs/stage1_n160_early_sharp_sign_audit/STAGE1_N160_EARLY_SHARP_SIGN_AUDIT_REPORT.md",
+      "size": 4015
+    },
+    {
+      "path": "outputs/stage1_n160_early_sharp_sign_audit/stage1_n160_early_sharp_sign_analysis.json",
+      "size": 14871
+    },
+    {
+      "path": "outputs/stage1_n160_early_translation_rescue_candidate/STAGE1_N160_EARLY_TRANSLATION_RESCUE_CANDIDATE_REPORT.md",
+      "size": 1678
+    },
+    {
+      "path": "outputs/stage1_n160_early_translation_rescue_candidate/stage1_n160_early_translation_rescue_candidate_analysis.json",
+      "size": 40235
+    },
+    {
+      "path": "outputs/stage1_n160_profile_aware_sign_candidate/STAGE1_N160_PROFILE_AWARE_SIGN_CANDIDATE_REPORT.md",
+      "size": 2478
+    },
+    {
+      "path": "outputs/stage1_n160_profile_aware_sign_candidate/stage1_n160_profile_aware_sign_candidate_analysis.json",
+      "size": 38267
+    },
+    {
+      "path": "outputs/stage1_n160_richer_nuisance_candidate/STAGE1_N160_RICHER_NUISANCE_CANDIDATE_REPORT.md",
+      "size": 1911
+    },
+    {
+      "path": "outputs/stage1_n160_richer_nuisance_candidate/stage1_n160_richer_nuisance_candidate_analysis.json",
+      "size": 48425
+    },
+    {
+      "path": "outputs/stage1_n160_seen_scale_early_translation_rescue_candidate/STAGE1_N160_SEEN_SCALE_EARLY_TRANSLATION_RESCUE_CANDIDATE_REPORT.md",
+      "size": 1717
+    },
+    {
+      "path": "outputs/stage1_n160_seen_scale_early_translation_rescue_candidate/baseline_hybrid_predictions_reference.json",
+      "size": 16013
+    },
+    {
+      "path": "outputs/stage1_n160_seen_scale_early_translation_rescue_candidate/stage1_n160_seen_scale_early_translation_rescue_candidate_analysis.json",
+      "size": 17868
+    },
+    {
+      "path": "outputs/stage1_n160_sign_drift_audit/STAGE1_N160_SIGN_DRIFT_AUDIT_REPORT.md",
+      "size": 4760
+    },
+    {
+      "path": "outputs/stage1_n160_sign_drift_audit/stage1_n160_sign_drift_analysis.json",
+      "size": 26218
+    },
+    {
+      "path": "outputs/stage1_scale_adaptive_gate_sign_audit/STAGE1_SCALE_ADAPTIVE_GATE_SIGN_AUDIT_REPORT.md",
+      "size": 2941
+    },
+    {
+      "path": "outputs/stage1_scale_adaptive_gate_sign_audit/stage1_scale_adaptive_gate_sign_analysis.json",
+      "size": 40088
+    },
+    {
+      "path": "outputs/stage1_scale_sign_combined/STAGE1_SCALE_SIGN_AUDIT_REPORT.md",
+      "size": 2821
+    },
+    {
+      "path": "outputs/stage1_scale_sign_combined/stage1_scale_sign_analysis.json",
+      "size": 22022
+    },
+    {
+      "path": "outputs/stage1_sign_anchor_feature_audit/STAGE1_SIGN_ANCHOR_FEATURE_AUDIT_REPORT.md",
+      "size": 4517
+    },
+    {
+      "path": "outputs/stage1_sign_anchor_feature_audit/stage1_sign_anchor_feature_analysis.json",
+      "size": 69221
+    },
+    {
+      "path": "outputs/stage1_translation_richer_profile_scale_audit/STAGE1_TRANSLATION_RICHER_PROFILE_SCALE_AUDIT_REPORT.md",
+      "size": 5565
+    },
+    {
+      "path": "outputs/stage1_translation_richer_profile_scale_audit/stage1_translation_richer_profile_scale_analysis.json",
+      "size": 45152
+    },
+    {
+      "path": "scripts/__init__.py",
+      "size": 0
+    },
+    {
+      "path": "scripts/analyze_baseline_hardening_round1.py",
+      "size": 4688
+    },
+    {
+      "path": "scripts/analyze_baseline_hardening_round2.py",
+      "size": 5185
+    },
+    {
+      "path": "scripts/analyze_baseline_hardening_round3.py",
+      "size": 5186
+    },
+    {
+      "path": "scripts/analyze_baseline_hardening_round4.py",
+      "size": 5186
+    },
+    {
+      "path": "scripts/analyze_baseline_protocols.py",
+      "size": 5399
+    },
+    {
+      "path": "scripts/analyze_channel_hypergraph.py",
+      "size": 3055
+    },
+    {
+      "path": "scripts/analyze_channel_invariants.py",
+      "size": 3591
+    },
+    {
+      "path": "scripts/analyze_channel_motifs.py",
+      "size": 3169
+    },
+    {
+      "path": "scripts/analyze_interface.py",
+      "size": 3650
+    },
+    {
+      "path": "scripts/analyze_interface_constraints.py",
+      "size": 3438
+    },
+    {
+      "path": "scripts/analyze_interface_lineages.py",
+      "size": 3337
+    },
+    {
+      "path": "scripts/analyze_interface_network.py",
+      "size": 3134
+    },
+    {
+      "path": "scripts/analyze_interface_spectra.py",
+      "size": 3472
+    },
+    {
+      "path": "scripts/analyze_interface_temporal.py",
+      "size": 3062
+    },
+    {
+      "path": "scripts/analyze_interface_topology.py",
+      "size": 3548
+    },
+    {
+      "path": "scripts/analyze_mirror_channel_atlas.py",
+      "size": 5269
+    },
+    {
+      "path": "scripts/analyze_mirror_shell_interface.py",
+      "size": 4646
+    },
+    {
+      "path": "scripts/analyze_mirror_temporal_bundle.py",
+      "size": 5110
+    },
+    {
+      "path": "scripts/analyze_multipole.py",
+      "size": 3034
+    },
+    {
+      "path": "scripts/analyze_phase_r1_audit.py",
+      "size": 2439
+    },
+    {
+      "path": "scripts/analyze_phase_r2_audit.py",
+      "size": 3502
+    },
+    {
+      "path": "scripts/analyze_phase_r3_audit.py",
+      "size": 3259
+    },
+    {
+      "path": "scripts/analyze_phase_r4_audit.py",
+      "size": 2896
+    },
+    {
+      "path": "scripts/analyze_phase_r5_audit.py",
+      "size": 3191
+    },
+    {
+      "path": "scripts/analyze_phase_r_audit.py",
+      "size": 2440
+    },
+    {
+      "path": "scripts/analyze_process_calculator.py",
+      "size": 4614
+    },
+    {
+      "path": "scripts/analyze_process_state.py",
+      "size": 2736
+    },
+    {
+      "path": "scripts/analyze_process_summary_atlas.py",
+      "size": 5309
+    },
+    {
+      "path": "scripts/analyze_process_summary_family_guided_consensus.py",
+      "size": 2270
+    },
+    {
+      "path": "scripts/analyze_process_summary_family_polarity_calibration.py",
+      "size": 2445
+    },
+    {
+      "path": "scripts/analyze_process_summary_family_repeatability.py",
+      "size": 2762
+    },
+    {
+      "path": "scripts/analyze_process_summary_repeatability.py",
+      "size": 2946
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_atlas_pair_formation_audit.py",
+      "size": 2319
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_carrier_polarity_decomposition.py",
+      "size": 3253
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_carrier_smoothing_sensitivity_audit.py",
+      "size": 1928
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_discrete_channel_anatomy_audit.py",
+      "size": 2601
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_inner_outer_shell_audit.py",
+      "size": 2855
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_interface_family_carrier_audit.py",
+      "size": 3303
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_mirrored_asymmetry_audit.py",
+      "size": 2694
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_mirrored_carrier_geometry_audit.py",
+      "size": 2774
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_mirrored_readout_audit.py",
+      "size": 2610
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_polarity_basis_vs_pair_orientation_sensitivity_audit.py",
+      "size": 2548
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_polarity_resolution_floor_audit.py",
+      "size": 1871
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_shell_to_atlas_handoff_audit.py",
+      "size": 2909
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_sign_source_audit.py",
+      "size": 2284
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_family_strongest_pair_translation_mode_restoration_repair_audit.py",
+      "size": 2616
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_neg_sign_limited_polarity_basis_audit.py",
+      "size": 1767
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_active_amplitude_gap_reduction_repair_audit.py",
+      "size": 2354
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_active_polarity_amplitude_strengthening_repair_audit.py",
+      "size": 2718
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_active_window_rescue_audit.py",
+      "size": 2867
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_m2_2_inner_core_amplitude_density_redesign_audit.py",
+      "size": 1901
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_m2_3_joint_shell0_shell1_high_amplitude_density_formation_redesign_audit.py",
+      "size": 2159
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_m2_4_inner_core_high_amplitude_distribution_shaping_redesign_audit.py",
+      "size": 2171
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_m2_4_material_baseline_recheck_audit.py",
+      "size": 2199
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_m2_inner_core_source_continuity_redesign_audit.py",
+      "size": 2442
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_process_x_direction_recovery_repair_audit.py",
+      "size": 2504
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_process_z_circulation_blocker_audit.py",
+      "size": 2412
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_residual_polarity_sign_restoration_repair_audit.py",
+      "size": 1950
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_active_x_carrier_concentration_cleanup_repair_audit.py",
+      "size": 2588
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_active_x_carrier_dilution_cleanup_repair_audit.py",
+      "size": 2573
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_active_x_carrier_floor_signal_microblend_repair_audit.py",
+      "size": 1775
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_active_x_carrier_trust_tightening_repair_audit.py",
+      "size": 1747
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_cleanup_repair_audit.py",
+      "size": 1807
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_tightening_repair_audit.py",
+      "size": 1819
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_carrier_floor_cleanup_repair_audit.py",
+      "size": 2330
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_inner_shell_x_carrier_amplitude_source_redesign_repair_audit.py",
+      "size": 2946
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_inner_shell_x_carrier_generation_restoration_repair_audit.py",
+      "size": 2849
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_residual_x_carrier_amplitude_restoration_repair_audit.py",
+      "size": 2319
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_retained_shell2_summary_compatibility_restoration_repair_audit.py",
+      "size": 2340
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_shell2_second_active_window_retention_restoration_repair_audit.py",
+      "size": 2828
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_seed8_x_carrier_source_restoration_audit.py",
+      "size": 2472
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_upstream_candidate_anatomy_audit.py",
+      "size": 2268
+    },
+    {
+      "path": "scripts/analyze_process_summary_translation_x_pos_x_family_carrier_margin_strengthening_repair_audit.py",
+      "size": 2382
+    },
+    {
+      "path": "scripts/analyze_readout.py",
+      "size": 2963
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_audit.py",
+      "size": 14205
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_candidate.py",
+      "size": 6935
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n192_bidirectional_rotation_veto_candidate.py",
+      "size": 9664
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n192_generalized_curl_veto_candidate.py",
+      "size": 17254
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n192_harder_nuisance_candidate.py",
+      "size": 12650
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n192_harder_seedexp_candidate.py",
+      "size": 12862
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n192_midbalanced_veto_candidate.py",
+      "size": 12386
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n192_standard_seedexp_candidate.py",
+      "size": 12681
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_bidirectional_rotation_veto_candidate.py",
+      "size": 13809
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_harder_nuisance_bidirectional_rotation_veto_candidate.py",
+      "size": 12655
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_candidate.py",
+      "size": 15809
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_harder_nuisance_sign_aware_gate_fallback_seedexp_candidate.py",
+      "size": 15431
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_latesoft_negative_boundary_study.py",
+      "size": 9166
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_richer_temporal_trace_gate_basis_study.py",
+      "size": 17212
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_sign_asymmetry_residual_audit.py",
+      "size": 19746
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_sign_aware_gate_fallback_candidate.py",
+      "size": 18531
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_standard_seedexp_bidirectional_candidate.py",
+      "size": 13814
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_standard_seedexp_trace_bridge_probe.py",
+      "size": 10961
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n224_translation_x_pos_late_balanced_residual_audit.py",
+      "size": 20753
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_farther_scale_n256_standard_full_stack_candidate.py",
+      "size": 18661
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_fixed_hhd_hybrid_candidate.py",
+      "size": 10474
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_fixed_hhd_hybrid_latesoft_candidate.py",
+      "size": 10885
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_harder_nuisance_candidate.py",
+      "size": 10151
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_hhd_lite_candidate.py",
+      "size": 8609
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_richer_nuisance.py",
+      "size": 3962
+    },
+    {
+      "path": "scripts/analyze_stage1_global_overview_temporal_candidate.py",
+      "size": 8760
+    },
+    {
+      "path": "scripts/analyze_stage1_hierarchical_gate_sign_tuned_audit.py",
+      "size": 9091
+    },
+    {
+      "path": "scripts/analyze_stage1_hierarchical_readout_audit.py",
+      "size": 12307
+    },
+    {
+      "path": "scripts/analyze_stage1_hierarchical_stress_audit.py",
+      "size": 9024
+    },
+    {
+      "path": "scripts/analyze_stage1_hierarchical_stress_robust_audit.py",
+      "size": 8012
+    },
+    {
+      "path": "scripts/analyze_stage1_hierarchical_stress_tuned.py",
+      "size": 9160
+    },
+    {
+      "path": "scripts/analyze_stage1_interface_protocol.py",
+      "size": 14159
+    },
+    {
+      "path": "scripts/analyze_stage1_medium_sign_audit.py",
+      "size": 7979
+    },
+    {
+      "path": "scripts/analyze_stage1_n160_early_routed_sign_candidate.py",
+      "size": 16376
+    },
+    {
+      "path": "scripts/analyze_stage1_n160_early_sharp_sign_audit.py",
+      "size": 9665
+    },
+    {
+      "path": "scripts/analyze_stage1_n160_early_translation_rescue_candidate.py",
+      "size": 14798
+    },
+    {
+      "path": "scripts/analyze_stage1_n160_profile_aware_sign_candidate.py",
+      "size": 15093
+    },
+    {
+      "path": "scripts/analyze_stage1_n160_richer_nuisance_candidate.py",
+      "size": 5995
+    },
+    {
+      "path": "scripts/analyze_stage1_n160_seen_scale_early_translation_rescue_candidate.py",
+      "size": 13928
+    },
+    {
+      "path": "scripts/analyze_stage1_n160_sign_drift_audit.py",
+      "size": 11979
+    },
+    {
+      "path": "scripts/analyze_stage1_scale_adaptive_gate_sign_audit.py",
+      "size": 16500
+    },
+    {
+      "path": "scripts/analyze_stage1_scale_sign_audit.py",
+      "size": 14337
+    },
+    {
+      "path": "scripts/analyze_stage1_sign_anchor_feature_audit.py",
+      "size": 7872
+    },
+    {
+      "path": "scripts/analyze_stage1_translation_richer_profile_scale_audit.py",
+      "size": 13294
+    },
+    {
+      "path": "scripts/analyze_state_memory.py",
+      "size": 3132
+    },
+    {
+      "path": "scripts/analyze_vestibular.py",
+      "size": 377
+    },
+    {
+      "path": "scripts/apply_stage1_hierarchical_gate_sign_tuned_readout.py",
+      "size": 4676
+    },
+    {
+      "path": "scripts/apply_stage1_hierarchical_readout.py",
+      "size": 5406
+    },
+    {
+      "path": "scripts/apply_stage1_hierarchical_stress_robust_readout.py",
+      "size": 3785
+    },
+    {
+      "path": "scripts/apply_stage1_scale_adaptive_gate_sign_readout.py",
+      "size": 8770
+    },
+    {
+      "path": "scripts/build_sphere.py",
+      "size": 5520
+    },
+    {
+      "path": "scripts/calibrate_reference.py",
+      "size": 9894
+    },
+    {
+      "path": "scripts/prune_outputs.py",
+      "size": 3233
+    },
+    {
+      "path": "scripts/run_baseline_hardening_round1.py",
+      "size": 4876
+    },
+    {
+      "path": "scripts/run_baseline_hardening_round2.py",
+      "size": 4485
+    },
+    {
+      "path": "scripts/run_baseline_hardening_round3.py",
+      "size": 5563
+    },
+    {
+      "path": "scripts/run_baseline_hardening_round4.py",
+      "size": 5842
+    },
+    {
+      "path": "scripts/run_baseline_protocols.py",
+      "size": 4685
+    },
+    {
+      "path": "scripts/run_gravity.py",
+      "size": 13939
+    },
+    {
+      "path": "scripts/run_mirror_channel_atlas_protocol.py",
+      "size": 3725
+    },
+    {
+      "path": "scripts/run_mirror_shell_interface_protocol.py",
+      "size": 3686
+    },
+    {
+      "path": "scripts/run_mirror_temporal_bundle_protocol.py",
+      "size": 3848
+    },
+    {
+      "path": "scripts/run_phase_r1_protocol.py",
+      "size": 5750
+    },
+    {
+      "path": "scripts/run_phase_r2_protocol.py",
+      "size": 6672
+    },
+    {
+      "path": "scripts/run_phase_r3_protocol.py",
+      "size": 5007
+    },
+    {
+      "path": "scripts/run_phase_r4_protocol.py",
+      "size": 5091
+    },
+    {
+      "path": "scripts/run_phase_r5_protocol.py",
+      "size": 5762
+    },
+    {
+      "path": "scripts/run_phase_r_protocol.py",
+      "size": 5735
+    },
+    {
+      "path": "scripts/run_process_calculator_protocol.py",
+      "size": 6837
+    },
+    {
+      "path": "scripts/run_process_summary_atlas_protocol.py",
+      "size": 3702
+    },
+    {
+      "path": "scripts/run_process_summary_family_guided_consensus_protocol.py",
+      "size": 1333
+    },
+    {
+      "path": "scripts/run_process_summary_family_polarity_calibration_protocol.py",
+      "size": 1111
+    },
+    {
+      "path": "scripts/run_process_summary_family_repeatability_protocol.py",
+      "size": 3632
+    },
+    {
+      "path": "scripts/run_process_summary_repeatability_protocol.py",
+      "size": 5558
+    },
+    {
+      "path": "scripts/run_process_summary_translation_atlas_pair_formation_audit_protocol.py",
+      "size": 1347
+    },
+    {
+      "path": "scripts/run_process_summary_translation_carrier_polarity_decomposition_protocol.py",
+      "size": 1385
+    },
+    {
+      "path": "scripts/run_process_summary_translation_carrier_smoothing_sensitivity_audit_protocol.py",
+      "size": 1575
+    },
+    {
+      "path": "scripts/run_process_summary_translation_discrete_channel_anatomy_audit_protocol.py",
+      "size": 1573
+    },
+    {
+      "path": "scripts/run_process_summary_translation_inner_outer_shell_audit_protocol.py",
+      "size": 1173
+    },
+    {
+      "path": "scripts/run_process_summary_translation_interface_family_carrier_audit_protocol.py",
+      "size": 1340
+    },
+    {
+      "path": "scripts/run_process_summary_translation_mirrored_asymmetry_audit_protocol.py",
+      "size": 1548
+    },
+    {
+      "path": "scripts/run_process_summary_translation_mirrored_carrier_geometry_audit_protocol.py",
+      "size": 1577
+    },
+    {
+      "path": "scripts/run_process_summary_translation_mirrored_readout_audit_protocol.py",
+      "size": 4789
+    },
+    {
+      "path": "scripts/run_process_summary_translation_polarity_basis_vs_pair_orientation_sensitivity_audit_protocol.py",
+      "size": 1435
+    },
+    {
+      "path": "scripts/run_process_summary_translation_polarity_resolution_floor_audit_protocol.py",
+      "size": 1575
+    },
+    {
+      "path": "scripts/run_process_summary_translation_shell_to_atlas_handoff_audit_protocol.py",
+      "size": 1345
+    },
+    {
+      "path": "scripts/run_process_summary_translation_sign_source_audit_protocol.py",
+      "size": 1285
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_family_strongest_pair_translation_mode_restoration_repair_audit_protocol.py",
+      "size": 1356
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_neg_sign_limited_polarity_basis_audit_protocol.py",
+      "size": 1862
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_active_amplitude_gap_reduction_repair_audit_protocol.py",
+      "size": 1398
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_active_polarity_amplitude_strengthening_repair_audit_protocol.py",
+      "size": 1321
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_active_window_rescue_audit_protocol.py",
+      "size": 1194
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_m2_2_inner_core_amplitude_density_redesign_audit_protocol.py",
+      "size": 2151
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_m2_3_joint_shell0_shell1_high_amplitude_density_formation_redesign_audit_protocol.py",
+      "size": 2240
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_m2_4_inner_core_high_amplitude_distribution_shaping_redesign_audit_protocol.py",
+      "size": 2216
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_m2_4_material_baseline_recheck_audit_protocol.py",
+      "size": 725
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_m2_inner_core_source_continuity_redesign_audit_protocol.py",
+      "size": 2087
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_m2_inner_core_source_continuity_redesign_protocol.py",
+      "size": 4423
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_process_x_direction_recovery_repair_audit_protocol.py",
+      "size": 2315
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_process_z_circulation_blocker_audit_protocol.py",
+      "size": 1444
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_residual_polarity_sign_restoration_repair_audit_protocol.py",
+      "size": 1296
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_active_x_carrier_concentration_cleanup_repair_audit_protocol.py",
+      "size": 1468
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_active_x_carrier_dilution_cleanup_repair_audit_protocol.py",
+      "size": 1448
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_active_x_carrier_floor_signal_microblend_repair_audit_protocol.py",
+      "size": 1478
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_active_x_carrier_trust_tightening_repair_audit_protocol.py",
+      "size": 1443
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_cleanup_repair_audit_protocol.py",
+      "size": 1518
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_tightening_repair_audit_protocol.py",
+      "size": 1533
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_carrier_floor_cleanup_repair_audit_protocol.py",
+      "size": 1383
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_inner_shell_x_carrier_amplitude_source_redesign_repair_audit_protocol.py",
+      "size": 2182
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_inner_shell_x_carrier_generation_restoration_repair_audit_protocol.py",
+      "size": 2117
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_residual_x_carrier_amplitude_restoration_repair_audit_protocol.py",
+      "size": 1995
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_retained_shell2_summary_compatibility_restoration_repair_audit_protocol.py",
+      "size": 2034
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_shell2_second_active_window_retention_restoration_repair_audit_protocol.py",
+      "size": 1909
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_seed8_x_carrier_source_restoration_audit_protocol.py",
+      "size": 1458
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_upstream_candidate_anatomy_audit_protocol.py",
+      "size": 1686
+    },
+    {
+      "path": "scripts/run_process_summary_translation_x_pos_x_family_carrier_margin_strengthening_repair_audit_protocol.py",
+      "size": 1433
+    },
+    {
+      "path": "scripts/run_reference_batch.py",
+      "size": 9049
+    },
+    {
+      "path": "scripts/run_stage1_early_sharp_seen_nuisance_panel.py",
+      "size": 4759
+    },
+    {
+      "path": "scripts/run_stage1_global_overview_farther_scale_n192_harder_nuisance_panel.py",
+      "size": 5254
+    },
+    {
+      "path": "scripts/run_stage1_global_overview_harder_nuisance_panel.py",
+      "size": 5203
+    },
+    {
+      "path": "scripts/run_stage1_global_overview_panel.py",
+      "size": 6460
+    },
+    {
+      "path": "scripts/run_stage1_global_overview_temporal_panel.py",
+      "size": 4683
+    },
+    {
+      "path": "scripts/run_stage1_hierarchical_stress_panel.py",
+      "size": 6496
+    },
+    {
+      "path": "scripts/run_stage1_interface_protocol.py",
+      "size": 5492
+    },
+    {
+      "path": "scripts/run_stage1_medium_sign_audit.py",
+      "size": 5948
+    },
+    {
+      "path": "scripts/run_stage1_n160_richer_nuisance_panel.py",
+      "size": 7319
+    },
+    {
+      "path": "scripts/run_stage1_scale_sign_audit.py",
+      "size": 4358
+    },
+    {
+      "path": "scripts/run_stage1_translation_early_sharp_scale_panel.py",
+      "size": 4686
+    },
+    {
+      "path": "scripts/run_stage1_translation_richer_profile_scale_panel.py",
+      "size": 6487
+    },
+    {
+      "path": "scripts/run_stage1_translation_sign_scale_panel.py",
+      "size": 5415
+    },
+    {
+      "path": "scripts/run_step14_protocol.py",
+      "size": 1934
+    },
+    {
+      "path": "scripts/run_step15_protocol.py",
+      "size": 3056
+    },
+    {
+      "path": "scripts/run_step16_protocol.py",
+      "size": 3930
+    },
+    {
+      "path": "scripts/run_step17_protocol.py",
+      "size": 2984
+    },
+    {
+      "path": "scripts/run_step18_protocol.py",
+      "size": 3067
+    },
+    {
+      "path": "scripts/run_step19_protocol.py",
+      "size": 3401
+    },
+    {
+      "path": "scripts/run_step20_protocol.py",
+      "size": 4586
+    },
+    {
+      "path": "scripts/run_step21_protocol.py",
+      "size": 4741
+    },
+    {
+      "path": "scripts/run_step22_protocol.py",
+      "size": 5051
+    },
+    {
+      "path": "scripts/run_step23_protocol.py",
+      "size": 5049
+    },
+    {
+      "path": "scripts/run_step24_protocol.py",
+      "size": 4801
+    },
+    {
+      "path": "scripts/run_step25_protocol.py",
+      "size": 4128
+    },
+    {
+      "path": "scripts/run_step26_protocol.py",
+      "size": 3394
+    },
+    {
+      "path": "scripts/run_step27_protocol.py",
+      "size": 5810
+    },
+    {
+      "path": "scripts/run_test_bundle.py",
+      "size": 2155
+    },
+    {
+      "path": "scripts/run_vestibular.py",
+      "size": 1069
+    },
+    {
+      "path": "src/cell_sphere_core/__init__.py",
+      "size": 13
+    },
+    {
+      "path": "src/cell_sphere_core/aggregate/__init__.py",
+      "size": 13
+    },
+    {
+      "path": "src/cell_sphere_core/aggregate/neighbors.py",
+      "size": 1981
+    },
+    {
+      "path": "src/cell_sphere_core/aggregate/seed.py",
+      "size": 1565
+    },
+    {
+      "path": "src/cell_sphere_core/aggregate/surface.py",
+      "size": 1660
+    },
+    {
+      "path": "src/cell_sphere_core/aggregate/topology.py",
+      "size": 1377
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/__init__.py",
+      "size": 385
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/channel_hypergraph.py",
+      "size": 12623
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/channel_invariants.py",
+      "size": 10325
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/channel_motifs.py",
+      "size": 11972
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/global_overview.py",
+      "size": 5473
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/global_overview_hhd_lite.py",
+      "size": 3637
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/global_overview_hybrid.py",
+      "size": 461
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/global_overview_temporal.py",
+      "size": 2502
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/interface_bundles.py",
+      "size": 15417
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/interface_lineages.py",
+      "size": 13326
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/interface_network.py",
+      "size": 31431
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/interface_spectra.py",
+      "size": 10571
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/interface_temporal.py",
+      "size": 10552
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/interface_topology.py",
+      "size": 13391
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/metrics.py",
+      "size": 1904
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/mirror_channel_atlas.py",
+      "size": 44133
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/mirror_channel_atlas_contract.py",
+      "size": 3776
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/mirror_shell_contract.py",
+      "size": 3174
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/mirror_shell_interface.py",
+      "size": 24485
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/mirror_temporal_bundle.py",
+      "size": 13136
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/mirror_temporal_bundle_contract.py",
+      "size": 4321
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/multipole.py",
+      "size": 4921
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/phase_r.py",
+      "size": 5310
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/phase_r1.py",
+      "size": 3826
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/phase_r2.py",
+      "size": 9742
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/phase_r3.py",
+      "size": 7045
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/phase_r4.py",
+      "size": 7131
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/phase_r5.py",
+      "size": 6763
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_calculator.py",
+      "size": 17828
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_protocol_contract.py",
+      "size": 5107
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_state.py",
+      "size": 19320
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_atlas.py",
+      "size": 33157
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_atlas_contract.py",
+      "size": 3679
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_family_guided_consensus.py",
+      "size": 5904
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_family_polarity_calibration.py",
+      "size": 7769
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_family_repeatability.py",
+      "size": 8171
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_repeatability.py",
+      "size": 7787
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_atlas_pair_formation_audit.py",
+      "size": 8191
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_carrier_polarity_decomposition.py",
+      "size": 6438
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_carrier_smoothing_sensitivity_audit.py",
+      "size": 5193
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_discrete_channel_anatomy_audit.py",
+      "size": 6461
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_inner_outer_shell_audit.py",
+      "size": 7094
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_interface_family_carrier_audit.py",
+      "size": 7850
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_mirrored_asymmetry_audit.py",
+      "size": 6883
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_mirrored_carrier_geometry_audit.py",
+      "size": 6306
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_mirrored_readout_audit.py",
+      "size": 11260
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_polarity_basis_vs_pair_orientation_sensitivity_audit.py",
+      "size": 6101
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_polarity_resolution_floor_audit.py",
+      "size": 5979
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_shell_to_atlas_handoff_audit.py",
+      "size": 8477
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_sign_source_audit.py",
+      "size": 7117
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_family_strongest_pair_translation_mode_restoration_repair_audit.py",
+      "size": 5105
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_neg_sign_limited_polarity_basis_audit.py",
+      "size": 6408
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_active_amplitude_gap_reduction_repair_audit.py",
+      "size": 5881
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_active_polarity_amplitude_strengthening_repair_audit.py",
+      "size": 5750
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_active_window_rescue_audit.py",
+      "size": 5873
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_m2_2_inner_core_amplitude_density_redesign_audit.py",
+      "size": 6969
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_m2_3_joint_shell0_shell1_high_amplitude_density_formation_redesign_audit.py",
+      "size": 8010
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_m2_4_inner_core_high_amplitude_distribution_shaping_redesign_audit.py",
+      "size": 7799
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_m2_4_material_baseline_recheck_audit.py",
+      "size": 5487
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_m2_inner_core_source_continuity_redesign_audit.py",
+      "size": 9203
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_process_x_direction_recovery_repair_audit.py",
+      "size": 7378
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_process_z_circulation_blocker_audit.py",
+      "size": 6823
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_residual_polarity_sign_restoration_repair_audit.py",
+      "size": 5263
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_active_x_carrier_concentration_cleanup_repair_audit.py",
+      "size": 6925
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_active_x_carrier_dilution_cleanup_repair_audit.py",
+      "size": 6962
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_active_x_carrier_floor_signal_microblend_repair_audit.py",
+      "size": 6970
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_active_x_carrier_trust_tightening_repair_audit.py",
+      "size": 7153
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_cleanup_repair_audit.py",
+      "size": 6973
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_tightening_repair_audit.py",
+      "size": 7003
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_carrier_floor_cleanup_repair_audit.py",
+      "size": 6473
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_inner_shell_x_carrier_amplitude_source_redesign_repair_audit.py",
+      "size": 10136
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_inner_shell_x_carrier_generation_restoration_repair_audit.py",
+      "size": 8067
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_residual_x_carrier_amplitude_restoration_repair_audit.py",
+      "size": 8619
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_retained_shell2_summary_compatibility_restoration_repair_audit.py",
+      "size": 8343
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_shell2_second_active_window_retention_restoration_repair_audit.py",
+      "size": 7593
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_seed8_x_carrier_source_restoration_audit.py",
+      "size": 8871
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_upstream_candidate_anatomy_audit.py",
+      "size": 9420
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/process_summary_translation_x_pos_x_family_carrier_margin_strengthening_repair_audit.py",
+      "size": 6351
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/readout.py",
+      "size": 10845
+    },
+    {
+      "path": "src/cell_sphere_core/analysis/scoring.py",
+      "size": 654
+    },
+    {
+      "path": "src/cell_sphere_core/cells/__init__.py",
+      "size": 13
+    },
+    {
+      "path": "src/cell_sphere_core/cells/state.py",
+      "size": 484
+    },
+    {
+      "path": "src/cell_sphere_core/core/__init__.py",
+      "size": 13
+    },
+    {
+      "path": "src/cell_sphere_core/core/datatypes.py",
+      "size": 1777
+    },
+    {
+      "path": "src/cell_sphere_core/engine/__init__.py",
+      "size": 13
+    },
+    {
+      "path": "src/cell_sphere_core/engine/main_loop.py",
+      "size": 57848
+    },
+    {
+      "path": "src/cell_sphere_core/mechanics/__init__.py",
+      "size": 13
+    },
+    {
+      "path": "src/cell_sphere_core/mechanics/boundary.py",
+      "size": 1484
+    },
+    {
+      "path": "src/cell_sphere_core/mechanics/contact.py",
+      "size": 1498
+    },
+    {
+      "path": "src/cell_sphere_core/mechanics/forces_external.py",
+      "size": 5445
+    },
+    {
+      "path": "src/cell_sphere_core/mechanics/forces_internal.py",
+      "size": 1831
+    },
+    {
+      "path": "src/cell_sphere_core/mechanics/integrator.py",
+      "size": 421
+    },
+    {
+      "path": "src/cell_sphere_core/reference/__init__.py",
+      "size": 123
+    },
+    {
+      "path": "src/cell_sphere_core/reference/sizing.py",
+      "size": 1644
+    },
+    {
+      "path": "src/cell_sphere_core/sensing/__init__.py",
+      "size": 419
+    },
+    {
+      "path": "src/cell_sphere_core/sensing/mechanical_interface.py",
+      "size": 10111
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/__init__.py",
+      "size": 811
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/band_damping.py",
+      "size": 2211
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/foam_network.py",
+      "size": 8516
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/homeostasis.py",
+      "size": 13287
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/local_volume.py",
+      "size": 2873
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/material_profiles.py",
+      "size": 1791
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/reference_state.py",
+      "size": 6173
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/settle_controller.py",
+      "size": 3345
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/surface_tension.py",
+      "size": 1410
+    },
+    {
+      "path": "src/cell_sphere_core/tissue/volume_pressure.py",
+      "size": 2318
+    },
+    {
+      "path": "src/cell_sphere_core/viz/__init__.py",
+      "size": 13
+    },
+    {
+      "path": "src/cell_sphere_core/viz/plot_cells.py",
+      "size": 1018
+    },
+    {
+      "path": "tests/__init__.py",
+      "size": 42
+    },
+    {
+      "path": "tests/_assertions.py",
+      "size": 2658
+    },
+    {
+      "path": "tests/test_baseline_hardening_round1.py",
+      "size": 2326
+    },
+    {
+      "path": "tests/test_baseline_hardening_round2.py",
+      "size": 2382
+    },
+    {
+      "path": "tests/test_baseline_hardening_round3.py",
+      "size": 2566
+    },
+    {
+      "path": "tests/test_baseline_hardening_round4.py",
+      "size": 2564
+    },
+    {
+      "path": "tests/test_baseline_protocols.py",
+      "size": 2586
+    },
+    {
+      "path": "tests/test_batch.py",
+      "size": 1056
+    },
+    {
+      "path": "tests/test_build.py",
+      "size": 800
+    },
+    {
+      "path": "tests/test_calibration.py",
+      "size": 2158
+    },
+    {
+      "path": "tests/test_directional_partition_and_handoff.py",
+      "size": 2531
+    },
+    {
+      "path": "tests/test_gravity.py",
+      "size": 1007
+    },
+    {
+      "path": "tests/test_local_volume_proxy.py",
+      "size": 835
+    },
+    {
+      "path": "tests/test_material_profiles.py",
+      "size": 1052
+    },
+    {
+      "path": "tests/test_mirror_channel_atlas.py",
+      "size": 7221
+    },
+    {
+      "path": "tests/test_mirror_shell_interface.py",
+      "size": 6139
+    },
+    {
+      "path": "tests/test_mirror_temporal_bundle.py",
+      "size": 7299
+    },
+    {
+      "path": "tests/test_phase_r1_audit.py",
+      "size": 859
+    },
+    {
+      "path": "tests/test_phase_r1_scripts.py",
+      "size": 1514
+    },
+    {
+      "path": "tests/test_phase_r2_audit.py",
+      "size": 2341
+    },
+    {
+      "path": "tests/test_phase_r2_scripts.py",
+      "size": 1795
+    },
+    {
+      "path": "tests/test_phase_r3_audit.py",
+      "size": 2181
+    },
+    {
+      "path": "tests/test_phase_r3_scripts.py",
+      "size": 1490
+    },
+    {
+      "path": "tests/test_phase_r4_audit.py",
+      "size": 3288
+    },
+    {
+      "path": "tests/test_phase_r4_scripts.py",
+      "size": 1125
+    },
+    {
+      "path": "tests/test_phase_r5_audit.py",
+      "size": 2340
+    },
+    {
+      "path": "tests/test_phase_r5_scripts.py",
+      "size": 1143
+    },
+    {
+      "path": "tests/test_phase_r_audit.py",
+      "size": 998
+    },
+    {
+      "path": "tests/test_phase_r_forces.py",
+      "size": 1191
+    },
+    {
+      "path": "tests/test_phase_r_scripts.py",
+      "size": 1249
+    },
+    {
+      "path": "tests/test_process_calculator.py",
+      "size": 6723
+    },
+    {
+      "path": "tests/test_process_summary_atlas.py",
+      "size": 5375
+    },
+    {
+      "path": "tests/test_process_summary_family_guided_consensus.py",
+      "size": 2252
+    },
+    {
+      "path": "tests/test_process_summary_family_polarity_calibration.py",
+      "size": 3420
+    },
+    {
+      "path": "tests/test_process_summary_family_repeatability.py",
+      "size": 2149
+    },
+    {
+      "path": "tests/test_process_summary_repeatability.py",
+      "size": 4087
+    },
+    {
+      "path": "tests/test_process_summary_translation_atlas_pair_formation_audit.py",
+      "size": 1446
+    },
+    {
+      "path": "tests/test_process_summary_translation_carrier_polarity_decomposition.py",
+      "size": 1338
+    },
+    {
+      "path": "tests/test_process_summary_translation_carrier_smoothing_sensitivity_audit.py",
+      "size": 1857
+    },
+    {
+      "path": "tests/test_process_summary_translation_discrete_channel_anatomy_audit.py",
+      "size": 1969
+    },
+    {
+      "path": "tests/test_process_summary_translation_inner_outer_shell_audit.py",
+      "size": 1427
+    },
+    {
+      "path": "tests/test_process_summary_translation_interface_family_carrier_audit.py",
+      "size": 1830
+    },
+    {
+      "path": "tests/test_process_summary_translation_mirrored_asymmetry_audit.py",
+      "size": 1637
+    },
+    {
+      "path": "tests/test_process_summary_translation_mirrored_carrier_geometry_audit.py",
+      "size": 1698
+    },
+    {
+      "path": "tests/test_process_summary_translation_mirrored_readout_audit.py",
+      "size": 1502
+    },
+    {
+      "path": "tests/test_process_summary_translation_polarity_basis_vs_pair_orientation_sensitivity_audit.py",
+      "size": 1540
+    },
+    {
+      "path": "tests/test_process_summary_translation_polarity_resolution_floor_audit.py",
+      "size": 1979
+    },
+    {
+      "path": "tests/test_process_summary_translation_shell_to_atlas_handoff_audit.py",
+      "size": 1682
+    },
+    {
+      "path": "tests/test_process_summary_translation_sign_source_audit.py",
+      "size": 1685
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_family_strongest_pair_translation_mode_restoration_repair_audit.py",
+      "size": 1224
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_neg_sign_limited_polarity_basis_audit.py",
+      "size": 2085
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_active_amplitude_gap_reduction_repair_audit.py",
+      "size": 1458
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_active_polarity_amplitude_strengthening_repair_audit.py",
+      "size": 1303
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_active_window_rescue_audit.py",
+      "size": 1605
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_m2_2_inner_core_amplitude_density_redesign_audit.py",
+      "size": 2258
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_m2_3_joint_shell0_shell1_high_amplitude_density_formation_redesign_audit.py",
+      "size": 2417
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_m2_4_inner_core_high_amplitude_distribution_shaping_redesign_audit.py",
+      "size": 2366
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_m2_4_material_baseline_recheck_audit.py",
+      "size": 892
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_m2_inner_core_source_continuity_redesign_audit.py",
+      "size": 2285
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_process_x_direction_recovery_repair_audit.py",
+      "size": 2408
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_process_z_circulation_blocker_audit.py",
+      "size": 1828
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_residual_polarity_sign_restoration_repair_audit.py",
+      "size": 1689
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_active_x_carrier_concentration_cleanup_repair_audit.py",
+      "size": 1504
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_active_x_carrier_dilution_cleanup_repair_audit.py",
+      "size": 1513
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_active_x_carrier_floor_signal_microblend_repair_audit.py",
+      "size": 1574
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_active_x_carrier_trust_tightening_repair_audit.py",
+      "size": 1503
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_cleanup_repair_audit.py",
+      "size": 1578
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_active_x_carrier_ultraweak_row_exclusion_tightening_repair_audit.py",
+      "size": 1623
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_carrier_floor_cleanup_repair_audit.py",
+      "size": 1439
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_inner_shell_x_carrier_amplitude_source_redesign_repair_audit.py",
+      "size": 2761
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_inner_shell_x_carrier_generation_restoration_repair_audit.py",
+      "size": 2553
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_residual_x_carrier_amplitude_restoration_repair_audit.py",
+      "size": 2487
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_retained_shell2_summary_compatibility_restoration_repair_audit.py",
+      "size": 2574
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_shell2_second_active_window_retention_restoration_repair_audit.py",
+      "size": 2243
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_seed8_x_carrier_source_restoration_audit.py",
+      "size": 1525
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_upstream_candidate_anatomy_audit.py",
+      "size": 2040
+    },
+    {
+      "path": "tests/test_process_summary_translation_x_pos_x_family_carrier_margin_strengthening_repair_audit.py",
+      "size": 1475
+    },
+    {
+      "path": "tests/test_radial_bands.py",
+      "size": 1129
+    },
+    {
+      "path": "tests/test_reference.py",
+      "size": 425
+    },
+    {
+      "path": "tests/test_stage1_bidirectional_rotation_veto_replay.py",
+      "size": 1223
+    },
+    {
+      "path": "tests/test_static_settle.py",
+      "size": 947
+    },
+    {
+      "path": "tests/test_step10_settling.py",
+      "size": 1262
+    },
+    {
+      "path": "tests/test_step11_settle_controller.py",
+      "size": 1810
+    },
+    {
+      "path": "tests/test_step12_homeostasis.py",
+      "size": 2907
+    },
+    {
+      "path": "tests/test_step13_neural_ready.py",
+      "size": 3259
+    },
+    {
+      "path": "tests/test_step14_outputs.py",
+      "size": 3309
+    },
+    {
+      "path": "tests/test_step14_scripts.py",
+      "size": 1301
+    },
+    {
+      "path": "tests/test_step15_process_state.py",
+      "size": 2702
+    },
+    {
+      "path": "tests/test_step15_scripts.py",
+      "size": 1673
+    },
+    {
+      "path": "tests/test_step16_scripts.py",
+      "size": 1930
+    },
+    {
+      "path": "tests/test_step16_state_memory.py",
+      "size": 2967
+    },
+    {
+      "path": "tests/test_step17_readout.py",
+      "size": 3560
+    },
+    {
+      "path": "tests/test_step17_scripts.py",
+      "size": 1411
+    },
+    {
+      "path": "tests/test_step18_interface.py",
+      "size": 3736
+    },
+    {
+      "path": "tests/test_step18_scripts.py",
+      "size": 1464
+    },
+    {
+      "path": "tests/test_step19_protocol.py",
+      "size": 1722
+    },
+    {
+      "path": "tests/test_step19_tracks.py",
+      "size": 3507
+    },
+    {
+      "path": "tests/test_step20_constraints.py",
+      "size": 4259
+    },
+    {
+      "path": "tests/test_step20_scripts.py",
+      "size": 1906
+    },
+    {
+      "path": "tests/test_step21_lineages.py",
+      "size": 4649
+    },
+    {
+      "path": "tests/test_step21_scripts.py",
+      "size": 1759
+    },
+    {
+      "path": "tests/test_step22_scripts.py",
+      "size": 1753
+    },
+    {
+      "path": "tests/test_step22_spectra.py",
+      "size": 4592
+    },
+    {
+      "path": "tests/test_step23_scripts.py",
+      "size": 1765
+    },
+    {
+      "path": "tests/test_step23_topology.py",
+      "size": 4551
+    },
+    {
+      "path": "tests/test_step24_scripts.py",
+      "size": 1763
+    },
+    {
+      "path": "tests/test_step24_temporal.py",
+      "size": 4659
+    },
+    {
+      "path": "tests/test_step25_hypergraph.py",
+      "size": 3693
+    },
+    {
+      "path": "tests/test_step25_scripts.py",
+      "size": 1406
+    },
+    {
+      "path": "tests/test_step26_motifs.py",
+      "size": 3536
+    },
+    {
+      "path": "tests/test_step26_scripts.py",
+      "size": 1469
+    },
+    {
+      "path": "tests/test_step27_invariants.py",
+      "size": 1309
+    },
+    {
+      "path": "tests/test_step27_scripts.py",
+      "size": 1809
+    },
+    {
+      "path": "tests/test_tissue.py",
+      "size": 1941
+    }
+  ]
+}

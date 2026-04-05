@@ -1,0 +1,15 @@
+{
+  "version": "v56",
+  "mainline_architecture": "overview-first",
+  "next_authoritative_task": "N288 harder phase2 positive guard overreach raw validation",
+  "new_files": [
+    "outputs/stage1_global_overview_farther_scale_n288_harder_phase2_positive_guard_overreach_candidate_definition_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_PHASE2_POSITIVE_GUARD_OVERREACH_CANDIDATE_DEFINITION_AUDIT_REPORT.md",
+    "outputs/stage1_global_overview_farther_scale_n288_harder_phase2_positive_guard_overreach_candidate_definition_audit/stage1_global_overview_farther_scale_n288_harder_phase2_positive_guard_overreach_candidate_definition_audit_analysis.json",
+    "docs/RESIDUAL_CONDITION_ATLAS_STAGE1.md"
+  ],
+  "packages": {
+    "restart_full": "cell_sphere_core_stage1_restart_full_v56.zip",
+    "handoff_bundle": "cell_sphere_core_stage1_handoff_bundle_v56.zip",
+    "reports_only": "cell_sphere_core_stage1_reports_only_v56.zip"
+  }
+}

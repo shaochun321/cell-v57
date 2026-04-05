@@ -1,0 +1,16 @@
+{
+  "version": "v53",
+  "mainline_architecture": "overview-first",
+  "current_stack_status": "fixed_v52_stack_survives_n288_harder_target_seeds_7_16",
+  "next_authoritative_task": "N288 harder target-seed expansion phase 2 (seeds 17-24) under fixed v53 stack",
+  "new_files": [
+    "outputs/stage1_global_overview_farther_scale_n288_harder_target_seedexp_broader_fixed_v52_stack_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_TARGET_SEEDEXP_BROADER_FIXED_V52_STACK_CANDIDATE_REPORT.md",
+    "outputs/stage1_global_overview_farther_scale_n288_harder_target_seedexp_broader_fixed_v52_stack_candidate/stage1_global_overview_farther_scale_n288_harder_target_seedexp_broader_fixed_v52_stack_candidate_analysis.json",
+    "scripts/analyze_stage1_global_overview_farther_scale_n288_harder_target_seedexp_broader_fixed_v52_stack_candidate.py"
+  ],
+  "packages": {
+    "restart_full": "cell_sphere_core_stage1_restart_full_v53.zip",
+    "handoff_bundle": "cell_sphere_core_stage1_handoff_bundle_v53.zip",
+    "reports_only": "cell_sphere_core_stage1_reports_only_v53.zip"
+  }
+}

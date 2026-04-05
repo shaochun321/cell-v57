@@ -1,0 +1,20 @@
+{
+  "version": "v46",
+  "status": "Residual condition atlas formalized; no new simulation run in this version; pair-specific N288 controlled study remains the next authoritative task.",
+  "latest_outputs": [
+    "outputs/stage1_global_overview_farther_scale_n288_standard_full_stack_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_STANDARD_FULL_STACK_CANDIDATE_REPORT.md",
+    "outputs/stage1_global_overview_farther_scale_n288_standard_full_stack_candidate/stage1_global_overview_farther_scale_n288_standard_full_stack_candidate_analysis.json",
+    "outputs/stage1_global_overview_farther_scale_n288_standard_residual_pair_structured_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_STANDARD_RESIDUAL_PAIR_STRUCTURED_AUDIT_REPORT.md",
+    "outputs/stage1_global_overview_farther_scale_n288_standard_residual_pair_structured_audit/stage1_global_overview_farther_scale_n288_standard_residual_pair_structured_audit_analysis.json",
+    "outputs/stage1_residual_condition_atlas_v46/RESIDUAL_CONDITION_ATLAS_STAGE1_v46.md",
+    "outputs/stage1_residual_condition_atlas_v46/stage1_residual_condition_atlas_v46.json"
+  ],
+  "next_task": "Pair-specific controlled study of N288 separator overreach into true translation and N288 baseline-edge leak into translation, using the residual condition atlas as the descriptive layer before any new support rule is proposed.",
+  "full_stack_frozen": true,
+  "notes": [
+    "overview-first mainline unchanged",
+    "support stack unchanged",
+    "residual condition atlas added as a required governance layer",
+    "v46 introduces no new target-scale support rule"
+  ]
+}

@@ -1,0 +1,28 @@
+# NEXT CHAT BOOTSTRAP — v56
+
+Read in this order:
+1. `docs/PROJECT_HANDOFF_STAGE1.md`
+2. `docs/PHILOSOPHY_AND_DEFINITIONS_STAGE1.md`
+3. `docs/DECISION_LOG_AND_ROUTE_CHANGES_STAGE1.md`
+4. `docs/BACKUP_AND_REJECTED_PATHS_STAGE1.md`
+5. `docs/GLOBAL_OVERVIEW_APPENDIX.md`
+6. `docs/READOUT_GOVERNANCE_AND_ANTI_PATCH_ILLUSION_STAGE1.md`
+7. `docs/RESIDUAL_TAXONOMY_AND_RELATION_HYPOTHESES_STAGE1.md`
+8. `docs/GEOMETRIC_CANONICALIZATION_AND_RESIDUAL_RELATION_HYPOTHESES_STAGE1.md`
+9. `docs/RESIDUAL_CONDITION_ATLAS_STAGE1.md`
+10. latest reports:
+   - `outputs/stage1_global_overview_farther_scale_n288_harder_target_seedexp_phase2_fixed_v53_stack_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_TARGET_SEEDEXP_PHASE2_FIXED_V53_STACK_CANDIDATE_REPORT.md`
+   - `outputs/stage1_global_overview_farther_scale_n288_harder_phase2_residual_pair_structured_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_PHASE2_RESIDUAL_PAIR_STRUCTURED_AUDIT_REPORT.md`
+   - `outputs/stage1_global_overview_farther_scale_n288_harder_phase2_positive_guard_overreach_candidate_definition_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_PHASE2_POSITIVE_GUARD_OVERREACH_CANDIDATE_DEFINITION_AUDIT_REPORT.md`
+
+Current authoritative status:
+- mainline architecture: **overview-first**
+- `N288 harder` phase-2 remains **unresolved**
+- repeated family under active study: **ATLAS-R7 positive guard overreach into true rotation**
+- `ATLAS-R8` remains atlas-only
+- v56 has defined a seen-scale-only restore candidate for `R7`, but raw validation is still pending
+
+Immediate next task:
+- run **N288 harder phase-2 positive guard overreach raw validation**
+- do **not** retune separator, fallback, bridge, or any carried-forward threshold globally before that validation
+- keep `ATLAS-R8` in the atlas until it repeats or survives a dedicated gate/basis audit

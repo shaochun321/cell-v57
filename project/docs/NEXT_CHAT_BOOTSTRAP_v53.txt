@@ -1,0 +1,27 @@
+# NEXT CHAT BOOTSTRAP — v53
+
+Read in this order:
+1. `docs/PROJECT_HANDOFF_STAGE1.md`
+2. `docs/PHILOSOPHY_AND_DEFINITIONS_STAGE1.md`
+3. `docs/DECISION_LOG_AND_ROUTE_CHANGES_STAGE1.md`
+4. `docs/BACKUP_AND_REJECTED_PATHS_STAGE1.md`
+5. `docs/GLOBAL_OVERVIEW_APPENDIX.md`
+6. `docs/READOUT_GOVERNANCE_AND_ANTI_PATCH_ILLUSION_STAGE1.md`
+7. `docs/RESIDUAL_TAXONOMY_AND_RELATION_HYPOTHESES_STAGE1.md`
+8. `docs/GEOMETRIC_CANONICALIZATION_AND_RESIDUAL_RELATION_HYPOTHESES_STAGE1.md`
+9. `docs/RESIDUAL_CONDITION_ATLAS_STAGE1.md`
+10. latest reports:
+   - `outputs/stage1_global_overview_farther_scale_n288_separator_overreach_controlled_study/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_SEPARATOR_OVERREACH_CONTROLLED_STUDY_REPORT.md`
+   - `outputs/stage1_global_overview_farther_scale_n288_harder_negative_guard_overreach_controlled_study/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_NEGATIVE_GUARD_OVERREACH_CONTROLLED_STUDY_REPORT.md`
+   - `outputs/stage1_global_overview_farther_scale_n288_harder_target_seedexp_broader_fixed_v52_stack_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_TARGET_SEEDEXP_BROADER_FIXED_V52_STACK_CANDIDATE_REPORT.md`
+
+Current authoritative status:
+- mainline architecture: **overview-first**
+- current farther-scale stack: **fixed v52 stack carried unchanged into v53**
+- `N288 harder` target seeds `7-16`: **clean under the fixed v52 stack**
+- no new residual family appears on seeds `13-16`
+- do not rename this as mainline closure; it remains a controlled stack result
+
+Immediate next task:
+- run **N288 harder target-seed expansion phase 2** on seeds `17-24`
+- do **not** retune separator, guards, fallback, or bridge thresholds before that test

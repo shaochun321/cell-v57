@@ -1,0 +1,32 @@
+{
+  "version": "v39",
+  "authoritative_status": {
+    "mainline_architecture": "overview-first",
+    "fixed_separator": "bidirectional rotation separator",
+    "controlled_negative_fallback": "enabled",
+    "positive_trace_bridge_status": "passed N224 standard contamination probe; not yet promoted",
+    "next_task": "beyond-N224 farther unseen scale validation with the fixed rule stack"
+  },
+  "artifacts": {
+    "main_report": "STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_STANDARD_SEEDEXP_TRACE_BRIDGE_PROBE_REPORT.md",
+    "main_analysis_json": "stage1_global_overview_farther_scale_n224_standard_seedexp_trace_bridge_probe_analysis.json",
+    "supporting_reports": [
+      "STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N224_RICHER_TEMPORAL_TRACE_GATE_BASIS_STUDY_REPORT.md",
+      "stage1_global_overview_farther_scale_n224_richer_temporal_trace_gate_basis_study_analysis.json"
+    ],
+    "governance_docs": [
+      "READOUT_GOVERNANCE_AND_ANTI_PATCH_ILLUSION_STAGE1_v39.md",
+      "RESIDUAL_TAXONOMY_AND_RELATION_HYPOTHESES_STAGE1_v39.md",
+      "GEOMETRIC_CANONICALIZATION_AND_RESIDUAL_RELATION_HYPOTHESES_STAGE1_v39.md"
+    ]
+  },
+  "results": {
+    "seen_overall": 1.0,
+    "seen_translation": 1.0,
+    "target_overall": 1.0,
+    "target_translation": 1.0,
+    "seen_triggers": 0,
+    "target_triggers": 0,
+    "remaining_target_errors": 0
+  }
+}

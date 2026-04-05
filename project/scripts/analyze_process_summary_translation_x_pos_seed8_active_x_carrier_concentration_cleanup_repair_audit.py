@@ -1,0 +1,64 @@
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="Analyze translation_x_pos seed8 active x-carrier concentration cleanup repair audit.")
+    ap.add_argument("--audit", required=True)
+    ap.add_argument("--outdir", required=True)
+    args = ap.parse_args()
+
+    audit = json.loads(Path(args.audit).read_text(encoding="utf-8"))
+    outdir = Path(args.outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+
+    analysis = {
+        "suite": audit["suite"],
+        "contracts": audit["contracts"],
+        "inferred_outcome": audit["inferred_outcome"],
+        "residual_issue": audit["residual_issue"],
+        "previous_round_seed8_translation_x_pos_gap_to_seed7": audit["previous_round_seed8_translation_x_pos_gap_to_seed7"],
+        "seed8_translation_x_pos_gap_to_seed7": audit["seed8_translation_x_pos_gap_to_seed7"],
+        "seed7": audit["seed7"],
+        "seed8": audit["seed8"],
+    }
+    (outdir / "process_summary_translation_x_pos_seed8_active_x_carrier_concentration_cleanup_repair_audit_analysis.json").write_text(
+        json.dumps(analysis, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    labels = [
+        "seed7 x_pos",
+        "seed8 x_pos",
+        "seed8 x_pos raw",
+        "seed8 x_pos carrier",
+        "seed8 x_pos carrier-floor",
+        "seed8 x_pos weighted floor",
+    ]
+    values = [
+        float(audit["seed7"]["translation_x_pos"]["active_mean_polarity_projection"]),
+        float(audit["seed8"]["translation_x_pos"]["active_mean_polarity_projection"]),
+        float(audit["seed8"]["translation_x_pos"]["active_raw_mean_polarity_projection"]),
+        float(audit["seed8"]["translation_x_pos"]["active_carrier_mean_polarity_projection"]),
+        float(audit["seed8"]["translation_x_pos"]["active_carrier_floor_mean_polarity_projection"]),
+        float(audit["seed8"]["translation_x_pos"]["active_carrier_floor_weighted_polarity_projection"]),
+    ]
+
+    fig = plt.figure(figsize=(9.0, 4.8))
+    ax = fig.add_subplot(1, 1, 1)
+    ax.bar(range(len(labels)), values)
+    ax.set_xticks(range(len(labels)), labels)
+    ax.set_ylabel("active polarity projection")
+    ax.set_title("Round41 residual seed8 active x-carrier concentration cleanup")
+    ax.axhline(0.03, linestyle="--", linewidth=1.0)
+    fig.tight_layout()
+    fig.savefig(outdir / "process_summary_translation_x_pos_seed8_active_x_carrier_concentration_cleanup_repair_audit.png", dpi=160)
+
+
+if __name__ == "__main__":
+    main()

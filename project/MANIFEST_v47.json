@@ -1,0 +1,15 @@
+{
+  "version": "v47",
+  "mainline_architecture": "overview-first",
+  "next_authoritative_task": "N288 baseline-edge controlled study",
+  "new_files": [
+    "outputs/stage1_global_overview_farther_scale_n288_separator_overreach_controlled_study/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_SEPARATOR_OVERREACH_CONTROLLED_STUDY_REPORT.md",
+    "outputs/stage1_global_overview_farther_scale_n288_separator_overreach_controlled_study/stage1_global_overview_farther_scale_n288_separator_overreach_controlled_study_analysis.json",
+    "docs/RESIDUAL_CONDITION_ATLAS_STAGE1.md"
+  ],
+  "packages": {
+    "restart_full": "cell_sphere_core_stage1_restart_full_v47.zip",
+    "handoff_bundle": "cell_sphere_core_stage1_handoff_bundle_v47.zip",
+    "reports_only": "cell_sphere_core_stage1_reports_only_v47.zip"
+  }
+}

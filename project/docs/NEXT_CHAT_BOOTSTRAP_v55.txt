@@ -1,0 +1,29 @@
+# NEXT CHAT BOOTSTRAP — v55
+
+Read in this order:
+1. `docs/PROJECT_HANDOFF_STAGE1.md`
+2. `docs/PHILOSOPHY_AND_DEFINITIONS_STAGE1.md`
+3. `docs/DECISION_LOG_AND_ROUTE_CHANGES_STAGE1.md`
+4. `docs/BACKUP_AND_REJECTED_PATHS_STAGE1.md`
+5. `docs/GLOBAL_OVERVIEW_APPENDIX.md`
+6. `docs/READOUT_GOVERNANCE_AND_ANTI_PATCH_ILLUSION_STAGE1.md`
+7. `docs/RESIDUAL_TAXONOMY_AND_RELATION_HYPOTHESES_STAGE1.md`
+8. `docs/GEOMETRIC_CANONICALIZATION_AND_RESIDUAL_RELATION_HYPOTHESES_STAGE1.md`
+9. `docs/RESIDUAL_CONDITION_ATLAS_STAGE1.md`
+10. latest reports:
+   - `outputs/stage1_global_overview_farther_scale_n288_harder_target_seedexp_phase2_fixed_v53_stack_candidate/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_TARGET_SEEDEXP_PHASE2_FIXED_V53_STACK_CANDIDATE_REPORT.md`
+   - `outputs/stage1_global_overview_farther_scale_n288_harder_phase2_residual_pair_structured_audit/STAGE1_GLOBAL_OVERVIEW_FARTHER_SCALE_N288_HARDER_PHASE2_RESIDUAL_PAIR_STRUCTURED_AUDIT_REPORT.md`
+
+Current authoritative status:
+- mainline architecture: **overview-first**
+- current farther-scale stack: **fixed v53 stack**
+- `N288 harder` target seeds `17-24`: **not clean** under the fixed v53 stack
+- new residuals split into:
+  - **ATLAS-R7 positive guard overreach into true rotation**
+  - **ATLAS-R8 negative early-soft spill to baseline**
+- do not rename this as mainline collapse; it remains a controlled-stack boundary
+
+Immediate next task:
+- run **N288 harder phase-2 positive guard overreach controlled study**
+- do **not** retune separator, guards, fallback, or bridge thresholds globally before that study
+- keep `ATLAS-R8` in the atlas until it either repeats or survives a dedicated gate/basis audit
